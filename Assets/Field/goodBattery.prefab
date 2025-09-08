@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7361902977870504106}
-  m_Layer: 0
+  - component: {fileID: 7947125896902255033}
+  m_Layer: 6
   m_Name: goodBattery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32,6 +33,28 @@ Transform:
   - {fileID: 3959764124986116510}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &7947125896902255033
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176947273774776332}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &3564969642875121269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84,9 +107,17 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 73a7e4f6dd122a6449a242d9b18ac3d2, type: 2}
+    - target: {fileID: -5885859286693949926, guid: 400b8078bad917946b635503e544679f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 400b8078bad917946b635503e544679f, type: 3}
       propertyPath: m_Name
       value: actualbattery
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 400b8078bad917946b635503e544679f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2455746300455542340, guid: 400b8078bad917946b635503e544679f, type: 3}
       propertyPath: m_LocalRotation.w
